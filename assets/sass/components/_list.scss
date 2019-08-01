@@ -58,5 +58,12 @@ dl {
 .skills {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2rem 1rem 0;
+  padding: 1rem 0 1rem 0;
+  ul {
+    padding: 0;
+    list-style: none;
+    li {
+      padding: 0;
+    }
+  }
 }
